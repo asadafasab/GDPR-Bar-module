@@ -1,2 +1,3 @@
 # GDPR-Bar-module
-GDPR Bar Prestashop module
+
+Prestashop cookie bar module
