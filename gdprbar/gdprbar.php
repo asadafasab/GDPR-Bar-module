@@ -8,13 +8,11 @@ class GdprBar extends Module
 {
     public function __construct()
     {
-        //Required attributes
         $this->name = 'gdprbar';
         $this->tab = 'front_office_features';
         $this->version = '0.0.1';
         $this->author = 'ME';
 
-        //Optional non-localized attributes
         $this->need_instance = 0;
         $this->ps_versions_compliancy = [
             'min' => '1.7.0',
@@ -24,8 +22,7 @@ class GdprBar extends Module
 
         parent::__construct();
 
-        //Optional localizable attributes
-        $this->confirmUninstall = $this->l('Do you still you want to uninstall the Hello World module?');
+        $this->confirmUninstall = $this->l('Do you still you want to uninstall this module?');
         $this->description = $this->l('This is a simple GDPR cookies module.');
         $this->displayName = $this->l('GDPR Bar');
     }
